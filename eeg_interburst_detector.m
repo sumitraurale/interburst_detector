@@ -88,8 +88,8 @@ end
 %---------------------------------------------------------------------
 burst_anno=y; svm_out=y;
 if(STATIC_THRES)
-    burst_anno(burst_anno>=0)=1;
-    burst_anno(burst_anno~=1)=0;
+    burst_anno(burst_anno>=-0.303183118960917)=1;
+    burst_anno(burst_anno<-0.303183118960917)=0;
     burst_anno(isnan(y))=NaN;
 else
     ad_thres=nan_mean(y);
