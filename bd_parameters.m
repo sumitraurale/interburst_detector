@@ -29,39 +29,41 @@ FEATURE_SET_FINAL(9).name='spec-power';	FEATURE_SET_FINAL(9).params=[0 0 0 0 1];
 %    DO NOT EDIT: indexing corresponds to features above
 %---------------------------------------------------------------------
 clear lin_svm_params_st;
-% linear regression parameters:
-lin_svm_param_st.coeff(1)=0.096690851818645;
-lin_svm_param_st.coeff(2)=1.374549315982956;
-lin_svm_param_st.coeff(3)=0.310052055509963;
-lin_svm_param_st.coeff(4)=-0.065335339529749;
-lin_svm_param_st.coeff(5)=-0.086388361035396;
-lin_svm_param_st.coeff(6)=0.430759705431190;
-lin_svm_param_st.coeff(7)=-0.053054511203928;
-lin_svm_param_st.coeff(8)=0.043129503821157;
-lin_svm_param_st.coeff(9)=-0.217456904171171;
 
-lin_svm_param_st.bias=0.547934380031329;
+% linear regression parameters:
+lin_svm_param_st.coeff(1)=0.0967659687421726;
+lin_svm_param_st.coeff(2)=1.36778034277916;
+lin_svm_param_st.coeff(3)=0.307905144503155;
+lin_svm_param_st.coeff(4)=-0.0695372377521123;
+lin_svm_param_st.coeff(5)=-0.0753260857476928;
+lin_svm_param_st.coeff(6)=0.425899319743395;
+lin_svm_param_st.coeff(7)=-0.0549320786785131;
+lin_svm_param_st.coeff(8)=0.0456232547864798;
+lin_svm_param_st.coeff(9)=-0.223036526073974;
+
+lin_svm_param_st.bias=0.547935339724541;
 
 % z-score parameters:
-lin_svm_param_st.x_shift(1)=-1.509094921008394;
-lin_svm_param_st.x_shift(2)=-0.452136708187513;
-lin_svm_param_st.x_shift(3)=2.764327019065411;
-lin_svm_param_st.x_shift(4)=1.174831563294955;
-lin_svm_param_st.x_shift(5)=0.828834495197632;
-lin_svm_param_st.x_shift(6)=0.653462003574326;
-lin_svm_param_st.x_shift(7)=0.667824764642791;
-lin_svm_param_st.x_shift(8)=0.057335130997401;
-lin_svm_param_st.x_shift(9)=-4.194406214984080;
+lin_svm_param_st.x_shift(1)=-1.51002318431465;
+lin_svm_param_st.x_shift(2)=-0.461152692123518;
+lin_svm_param_st.x_shift(3)=2.76485473836567;
+lin_svm_param_st.x_shift(4)=1.17068582075060;
+lin_svm_param_st.x_shift(5)=0.822618232339856;
+lin_svm_param_st.x_shift(6)=0.654907274448431;
+lin_svm_param_st.x_shift(7)=0.667221966047684;
+lin_svm_param_st.x_shift(8)=0.0576040232449750;
+lin_svm_param_st.x_shift(9)=-4.19416451554619;
 
-lin_svm_param_st.x_scale(1)=0.185439656377677;
-lin_svm_param_st.x_scale(2)=1.478916050607285;
-lin_svm_param_st.x_scale(3)=0.746802605547493;
-lin_svm_param_st.x_scale(4)=0.700346173451193;
-lin_svm_param_st.x_scale(5)=0.582938191016048;
-lin_svm_param_st.x_scale(6)=0.465541114648944;
-lin_svm_param_st.x_scale(7)=0.077356525083303;
-lin_svm_param_st.x_scale(8)=0.041522907230086;
-lin_svm_param_st.x_scale(9)=1.023852427561276;
+lin_svm_param_st.x_scale(1)=0.186456443260142;
+lin_svm_param_st.x_scale(2)=1.48046670269053;
+lin_svm_param_st.x_scale(3)=0.747785934841392;
+lin_svm_param_st.x_scale(4)=0.699854649003213;
+lin_svm_param_st.x_scale(5)=0.583673853399804;
+lin_svm_param_st.x_scale(6)=0.467308061525048;
+lin_svm_param_st.x_scale(7)=0.0775528828708503;
+lin_svm_param_st.x_scale(8)=0.0416253075034754;
+lin_svm_param_st.x_scale(9)=1.03198235219561;
+
 
 % trim off start and end of detector output (as features use
 % short-time windowing approach): 
