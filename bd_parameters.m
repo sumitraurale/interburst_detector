@@ -1,7 +1,8 @@
 %-------------------------------------------------------------------------------
 % parameters for the inter-burst detector
-%
-% Sumit Raurale, PhD
+% 
+% John M. O' Toole,
+% edited by, Sumit Raurale, PhD
 % Infant Centre, University College Cork
 % Started: 26-09-2019
 %
