@@ -5,7 +5,7 @@
 %
 % Inputs: 
 %     x      - 1-channel of EEG data (size 1 x N)
-%     Fs     - sampling frequency (in Hz, must be ≥64 Hz)
+%     Fs     - sampling frequency (in Hz, must be â‰¥64 Hz)
 %
 % Outputs: 
 %     t_stat - feature generated from x (size 1 x N)
@@ -22,11 +22,11 @@
 %     xlabel('time (seconds)');
 %
 %
-% [1] T. Higuchi, “Approach to an irregular time series on the basis of 
-% the fractal theory,�? Phys. D Nonlinear Phenom., vol. 31, pp. 277–283, 
+% [1] T. Higuchi, â€œApproach to an irregular time series on the basis of 
+% the fractal theory,â€? Phys. D Nonlinear Phenom., vol. 31, pp. 277â€“283, 
 % 1988.
 %
-% Sumit Raurale, PhD
+% John M. O' Toole,
 % Infant Centre, University College Cork
 % Started: 26-09-2019
 %
