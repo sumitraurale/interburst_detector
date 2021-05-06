@@ -21,7 +21,7 @@
 %     plotyy(t,x,t,t_stat); 
 %     xlabel('time (seconds)');
 %
-% Sumit Raurale, PhD
+% John M. O' Toole,
 % Infant Centre, University College Cork
 % Started: 26-09-2019
 %
